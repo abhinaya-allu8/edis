@@ -1,0 +1,47 @@
+# ─── Core ────────────────────────────────────────────────────────────────────
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-dotenv>=1.0.0
+pydantic>=2.8.0
+python-multipart>=0.0.12
+aiofiles>=24.1.0
+httpx>=0.27.0
+
+# ─── LangChain stack ─────────────────────────────────────────────────────────
+# langchain 1.2.x requires langgraph>=1.1.1 — keep these aligned
+langchain==1.2.13
+langchain-core==1.2.20
+langchain-community==0.4.1
+langchain-openai>=0.3.0
+langchain-anthropic>=0.3.0
+langgraph==1.1.3
+
+# ─── LiteLLM (BYOK routing) ──────────────────────────────────────────────────
+litellm>=1.48.0
+
+# ─── LlamaIndex (RAG) ────────────────────────────────────────────────────────
+llama-index>=0.12.0
+llama-index-vector-stores-qdrant>=0.4.0
+llama-index-embeddings-ollama>=0.5.0
+llama-index-embeddings-openai>=0.3.0
+
+# ─── Vector DB ───────────────────────────────────────────────────────────────
+qdrant-client>=1.11.0
+
+# ─── Document Parsers ────────────────────────────────────────────────────────
+pymupdf>=1.24.0
+python-docx>=1.1.0
+pandas>=2.2.0
+trafilatura>=1.12.0
+requests>=2.32.0
+
+# ─── Reranker ────────────────────────────────────────────────────────────────
+sentence-transformers>=3.1.0
+
+# ─── Evaluation ──────────────────────────────────────────────────────────────
+# ragas 0.2.15 is confirmed compatible with langchain 1.2.x + langgraph 1.1.x
+ragas==0.2.15
+datasets>=2.20.0
+
+# ─── Frontend ────────────────────────────────────────────────────────────────
+streamlit>=1.38.0
