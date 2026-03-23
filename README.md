@@ -75,7 +75,7 @@ User (Streamlit UI)
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/yourusername/edis.git
+git clone https://github.com/abhinaya-allu8/edis.git
 cd edis
 pip install -r requirements.txt
 ```
